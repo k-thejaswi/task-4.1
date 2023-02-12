@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rock Paper Scissor Game</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="scores">
+            <p>Computer : 
+                <span id="computer_score">0</span>
+            </p>
+            <p>
+                You :
+                <span id="user_score">0</span>
+            </p>
+        </div>
+        <div class="events">
+            <button  onclick="playRound('rock')">Rock
+            </button>
+            <button onclick="playRound('paper')">Paper
+            </button>
+            <button onclick="playRound('scissor')">Scissor
+            </button>
+        </div>
+        <div class="details">
+            <p id="user_choice"></p>
+            <p id="comp_choice"></p>
+            <p id="result"></p>
+        </div>
+    </section>
+
+
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>
